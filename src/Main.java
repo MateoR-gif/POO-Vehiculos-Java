@@ -13,5 +13,10 @@ public class Main {
         for(Conducible v : vehiculos){
             v.conducir();
         }
+
+        vehiculos[0].añadirModificacion("Alerones");
+        vehiculos[1].añadirModificacion("Exploradoras");
+        
+        vehiculos[0].explotar();
     }
 }
