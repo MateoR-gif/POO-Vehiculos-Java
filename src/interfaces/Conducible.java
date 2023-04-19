@@ -1,5 +1,7 @@
 package interfaces;
 
 public interface Conducible {
-    public void conducir();
+    void conducir();
+    void explotar();
+    void añadirModificacion(String nombreModificacion);
 }
