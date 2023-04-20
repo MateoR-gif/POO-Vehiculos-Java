@@ -19,4 +19,5 @@ public interface Conducible {
      *                           de la modificacion.
      * */
     void añadirModificacion(String nombreModificacion);
+    void Rodar();
 }

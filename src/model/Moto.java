@@ -30,4 +30,9 @@ public class Moto extends Vehiculo implements Conducible {
         this.nombreModificacion = nombreModificacion;
         System.out.println("Se añadió la siguiente modificación al auto: " + nombreModificacion);
     }
+
+    @Override
+    public void Rodar() {
+        System.out.println("La moto anda en 2 ruedas");
+    }
 }

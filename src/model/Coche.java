@@ -12,6 +12,10 @@ public class Coche extends Vehiculo implements Conducible {
     }
 
     @Override
+    public void Rodar() {
+        System.out.println("El auto anda en 4 ruedas");
+    }
+    @Override
     public void conducir() {
         System.out.println("Estoy conduciendo mi auto \n");
         System.out.println("La marca de es: " + marca);
@@ -30,5 +34,6 @@ public class Coche extends Vehiculo implements Conducible {
         this.nombreModificacion = nombreModificacion;
         System.out.println("Se añadió la siguiente modificación al auto: " + nombreModificacion);
     }
+
 
 }

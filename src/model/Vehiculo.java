@@ -11,6 +11,8 @@ public abstract class Vehiculo {
         this.anoFrabricacion = anoFrabricacion;
     }
 
+    public abstract void Rodar();
+
     public String getMarca() {
         return marca;
     }
